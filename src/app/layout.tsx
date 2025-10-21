@@ -30,7 +30,7 @@ export default function RootLayout({
       >
         <header className="w-full border-b bg-white">
           <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-            <a href="/" className="text-lg font-bold">Village Survey</a>
+            <Link href="/" className="text-lg font-bold">Village Survey</Link>
             <nav className="space-x-4">
               <Link href="/" className="text-sm text-gray-700 hover:underline">Home</Link>
               <Link href="/village-heads" className="text-sm text-gray-700 hover:underline">Village Heads (TN)</Link>
